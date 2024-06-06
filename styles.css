@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.heading, .image{
+    display: flex;
+    justify-content: center;
+    margin: 20px;  
+}
+img{
+    width: 50%;
+}
+.text-container, .last-text{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    
+}
+.iframe{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.last-text{
+    margin-bottom: 20px;
+}
